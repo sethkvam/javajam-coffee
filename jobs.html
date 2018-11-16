@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">	
+	<head>
+		<title>JavaJam Coffee House - Jobs</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/javajam.css" rel="stylesheet" type="text/css" >
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	
+	<body>
+		<div id="wrapper">
+		
+			<div id="header">
+				<h1>JavaJam Coffee House</h1>
+			</div>
+			
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="menu.html">Menu</a></li>
+					<li><a href="music.html">Music</a></li>
+					<li><a href="jobs.html">Jobs</a></li>
+				</ul>
+			</nav>
+			
+			<div id="main">
+				<div id="heromugs"></div>
+				
+				<h2>Jobs at JavaJam</h2>
+				<p>Want to work at JavaJam? Fill out the form below to start your application. Required fields are marked with an asterisk (*).</p>
+				
+				<form action="http://webdevbasics.net/scripts/javajam8.php" method="post">
+					<label for="myName">* Name:</label><input type="text" name="myName" required>
+					<label for="myEmail">* E-mail:</label><input type="email" name="myEmail" required>
+					<label for="myExp">* Experience:</label><textarea rows="2" cols="20" name="myExp" required></textarea>
+					<input type="submit" value="Apply Now" id="mySubmit">
+				</form>
+			</div>
+			
+			<footer>
+				Copyright &copy; 2016 JavaJam Coffee House<br>
+				<address>
+					<a href="mailto:kvams@wwu.edu">Seth Kvam</a>
+				</address>
+				<div>
+					<script>
+						var date = "This page was last modified on: " + document.lastModified;
+						document.write(date);
+					</script>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
